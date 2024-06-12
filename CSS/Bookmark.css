@@ -1,0 +1,26 @@
+body{
+    background-image: url("../Images/Book\ Background.jpg");
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+ 
+
+}
+.container{
+    position: relative;
+}
+.container h2{
+ 
+    color: #FED8B1;
+}
+
+.container h4{
+ 
+    color: #FED8B1;
+}
+.container span{
+    color: #bb2d3b;
+   font-weight: 900;
+}
+
+
+

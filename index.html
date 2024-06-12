@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/CSS bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Bookmark.css">
+</head>
+<body>
+    
+    <div class="container text-center my-4">
+        <h2 class="" >Bookmarker</h2>
+    <h4 class="mb-5" > Bookmark your <span>favorite sites</span>  </h4>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="siteName" placeholder="">
+            <label for="siteName"> Site Name</label>
+          </div>
+        <div class="form-floating mb-3">
+            <input type="url" class="form-control" id="siteURL" placeholder="">
+            <label for="siteURL"> Site URL</label>
+          </div>
+    
+    <button onclick="submitBtn()" class="btn btn-danger my-3" id="submitBtn">Submit</button></div>
+    <table class="table text-center">
+       <thead>
+<tr>
+    <th>Index</th>
+    <th>Website Name</th>
+    <th>Visit</th>
+    <th>Delete</th>
+</tr>
+
+
+    </thead  > 
+    <tbody id="tableData"></tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JS/Bookmark.js"></script>
+</body>
+</html>
